@@ -6,7 +6,7 @@ Production-ready Next.js 14 + Tailwind landing page designed for Azure Static We
 ```bash
 npm install
 npm run dev
-# or: pnpm i && pnpm dev / yarn && yarn dev Upendra
+# or: pnpm i && pnpm dev / yarn && yarn dev
 ```
 
 ## Deploy to Azure Static Web Apps (Free)
