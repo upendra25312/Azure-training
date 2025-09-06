@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { --radius: 12px; }
+html, body { scroll-behavior: smooth; }
+.glass { @apply bg-white/70 dark:bg-white/10 backdrop-blur-md border border-white/30 dark:border-white/10 rounded-2xl; }
+.container-max { @apply max-w-6xl mx-auto px-4 sm:px-6; }
+.section { @apply py-16 sm:py-20; }
+.gradient-hero { background: theme('backgroundImage.hero-gradient'); }
